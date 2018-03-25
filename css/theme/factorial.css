@@ -4,23 +4,27 @@
  * By Hakim El Hattab, http://hakim.se
  */
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
-  color: #000; }
+  color: #fff; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff;
-  background-color: #fff; }
+  background: url(../../assets/background-dark.svg);
+  background-color: #000; }
+
+body .slide-first {
+  background: url(../../assets/background-yellow.svg) !important;
+  background-color: #000; }
 
 .reveal {
-  font-family: "factoria",sans-serif;
+  font-family: "SuisseIntl-Light", sans-serif;
   font-size: 38px;
   font-weight: normal;
-  color: #000; }
+  color: #fff; }
 
 ::selection {
-  color: #000;
+  color: #fff;
   background: #bfbfbf;
   text-shadow: none; }
 
@@ -39,8 +43,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #000;
-  font-family: "factoria",sans-serif;
+  color: #fff;
+  font-family: "SuisseIntl-Medium", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: normal;
@@ -253,19 +257,19 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #000; }
+  border-right-color: #fff; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #000; }
+  border-left-color: #fff; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #000; }
+  border-bottom-color: #fff; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #000; }
+  border-top-color: #fff; }
 
 .reveal .controls .navigate-left.enabled:hover {
   border-right-color: #d9d9d9; }
@@ -299,6 +303,6 @@ body {
   z-index: 30;
   left: 10px;
   top: 20px;
-  font-family: "factoria", monospace;
+  font-family: 'SuisseIntlMono-Bold', monospace;
   font-size: .5em;
   color: rgba(255, 255, 255, 0.2); }
