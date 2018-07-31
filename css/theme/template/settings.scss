@@ -2,23 +2,23 @@
 // overridden by the super-theme
 
 // Background of the presentation
-$backgroundColor: #0096db;
+$backgroundColor: #2b2b2b;
 
 // Primary/body text
-$mainFont: 'SuisseIntl-Medium', sans-serif;
-$mainFontSize: 36px;
-$mainColor: #fff;
+$mainFont: 'Lato', sans-serif;
+$mainFontSize: 40px;
+$mainColor: #eee;
 
 // Vertical spacing between blocks of text
 $blockMargin: 20px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'SuisseIntl-Medium', sans-serif;
-$headingColor: #fff;
+$headingFont: 'League Gothic', Impact, sans-serif;
+$headingColor: #eee;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
-$headingTextTransform: none;
+$headingTextTransform: uppercase;
 $headingTextShadow: none;
 $headingFontWeight: normal;
 $heading1TextShadow: $headingTextShadow;
