@@ -308,6 +308,7 @@ body {
 
 .skill-box .text {
   color: #666666;
+  font-size: 12px !important;
 }
 .Wrap-skillBox {
   padding: 10px;
